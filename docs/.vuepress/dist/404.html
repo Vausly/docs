@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.15" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (userMode === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (userMode === 'dark' || systemDarkMode) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>Vausly Experiment</title><meta name="description" content="Documentation page of Vausly Project.">
+    <link rel="preload" href="/assets/style-DeYy8neX.css" as="style"><link rel="stylesheet" href="/assets/style-DeYy8neX.css">
+    <link rel="modulepreload" href="/assets/app-B8FRK7F0.js"><link rel="modulepreload" href="/assets/404.html-DlRo9WhN.js">
+    <link rel="prefetch" href="/assets/about.html-LRx4Ni1h.js" as="script"><link rel="prefetch" href="/assets/about_id.html-V6Z_NZ8q.js" as="script"><link rel="prefetch" href="/assets/get-started.html-CzqaP4Li.js" as="script"><link rel="prefetch" href="/assets/portfolio.html-DthakoAV.js" as="script"><link rel="prefetch" href="/assets/post.html-tVfC0PTx.js" as="script"><link rel="prefetch" href="/assets/index.html-CbtYJbIa.js" as="script"><link rel="prefetch" href="/assets/social.html-B5zjN36q.js" as="script"><link rel="prefetch" href="/assets/wiki.html-B_tD22dd.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-90215cbb><main class="page" data-v-90215cbb><div class="theme-default-content" vp-content data-v-90215cbb><h1 data-v-90215cbb>404</h1><blockquote data-v-90215cbb>How did we get here?</blockquote><a class="route-link" href="/" data-v-90215cbb>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-B8FRK7F0.js" defer></script>
+  </body>
+</html>
